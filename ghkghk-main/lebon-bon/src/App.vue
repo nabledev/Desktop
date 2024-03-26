@@ -2,6 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 import headerVue from './components/Header.vue'
 import headerCategproe from './components/HeaderCategorie.vue'
+import AnnonceView from './components/AnnoncesView.vue'
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import headerCategproe from './components/HeaderCategorie.vue'
     </div>
   </header>
   <headerCategproe/>
+  <AnnonceView/>
   
 </template>
 
