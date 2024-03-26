@@ -20,7 +20,7 @@ const items = reactive([
 <style scoped>
 #Header{
     display: flex;
-    flex-direction: row;
+    flex-direction: columns;
     justify-content: center;
     align-self: center;
     margin-bottom: 32px;
